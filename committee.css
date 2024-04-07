@@ -1,0 +1,29 @@
+.tag-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .tag {  
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0 1px;
+    color: white;
+    font-size: 12px;
+  }
+
+  .tag.chairman{
+    background-color: rgb(20, 117, 197);
+    font-size: 16px;
+  }
+
+  .members-container{
+    text-align: center;
+}
+
+.grid-content{
+    margin: 48px auto;
+    max-width: 60%;
+}

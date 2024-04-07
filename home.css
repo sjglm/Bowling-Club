@@ -1,0 +1,102 @@
+.top-band {
+    background-color: #545454;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.address-text {
+    font-size: 1.2em; /* Adjust size as needed */
+    color: #cccccc; /* Darker color */
+    text-align: left; /* Left align text */
+    margin-top: 10px; /* Add some top margin */
+}
+
+.top-band img {
+    margin-right: -40px; /* Add more space between image and text */
+}
+
+.top-band > div {
+    margin-top: none;
+    margin-right: 50px; /* Add margin to all divs within .top-band */
+    margin-left: 50px;
+    margin-bottom: 25px;
+    text-align: left; /* Left align text */
+}
+
+.address-icon {
+    color: #cccccc; /* Adjust color as needed */
+    margin-right: 10px; /* Add some space between the icon and text */
+}
+
+
+.navbar{
+    background-color: #2e82ff;
+    justify-content: center;
+    padding: 0px;
+}
+.navbar-nav{
+    background-color: #2e82ff;
+}
+.container-fluid{
+    background-color: #2e82ff;
+}
+.nav-item {
+    position: relative; /* Set position to relative */
+    padding: 20px;
+}
+
+.nav-item:not(:last-child)::after {
+    content: ''; 
+    position: absolute;
+    top: 50%; 
+    right: 0; 
+    transform: translateY(-50%);
+    width: 1px;
+    height: 70%; 
+    background-color: white; 
+}
+
+
+
+.nav-item a{
+    font-size: 24px;
+    color: white;
+}
+.nav-item a:hover{
+    color: #cccccc;
+}
+
+
+.home-information {
+    text-align: center; /* Center-align all text */
+    margin-top: 48px;
+}
+
+.home-information .display-1 {
+    margin-bottom: 10px; /* Add space below the display-1 text */
+}
+
+.home-information .display-3 {
+    margin-bottom: 20px; /* Add space below the display-2 text */
+    color: #474747;
+}
+
+.home-information iframe {
+    margin: 0 auto; /* Center-align the iframe horizontally */
+    display: block; /* Make sure the iframe is displayed as a block element */
+}
+
+.footer-info {
+    padding: 12px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email {
+    color: black;
+    font-size: 24px;
+}
